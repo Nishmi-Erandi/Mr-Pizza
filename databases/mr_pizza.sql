@@ -57,9 +57,7 @@ CREATE TABLE `customers` (
 -- Dumping data for table `customers`
 --
 
-INSERT INTO `customers` (`customer_id`, `fname`, `email`, `shipping_address`, `phone_num`, `order_date`) VALUES
-(13, 'Nishmi Erandi', 'nishmierandi56@gmail.com', '96/E,weerajapanapadaya,uragasmanhandiya', '0764067432', '2025-06-11 04:00:02'),
-
+INSERT INTO `customers` (`customer_id`, `fname`, `email`, `shipping_address`, `phone_num`, `order_date`)
 
 -- --------------------------------------------------------
 
@@ -137,9 +135,7 @@ CREATE TABLE `orderss` (
 --
 
 INSERT INTO `orderss` (`order_id`, `customer_id`, `customer_name`, `customer_email`, `customer_phone`, `customer_address`, `product_title`, `product_image`, `product_price`, `quantity`, `item_total`, `delivery_fee`, `grand_total`, `order_date`, `order_status`) VALUES
-(15, 13, 'Nishmi Erandi', 'nishmierandi56@gmail.com', '0764067432', '96/E,weerajapanapadaya,uragasmanhandiya', 'Vegi Pizza', 'vegi.jpg', 1500.00, 2, 3000.00, 300.00, 3300.00, '2025-06-11 04:00:02', 'delivered'),
 
-(22, 16, 'thilini', 'thilini@gmail.com', '0787381786', '96/E,weerajapanapadaya,uragasmanhandiya', 'Cheesy Sausage Pizza', 'cheesy-sasuges.jpg', 1500.00, 1, 1500.00, 300.00, 1800.00, '2025-06-13 08:06:30', 'delivered'),
 
 -- --------------------------------------------------------
 
@@ -175,7 +171,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `address`, `phone_number`, `email`, `password`) VALUES
-(3, 'Nishmi', 'Erandi', '96/E,weerajapanapadaya,uragasmanhandiya', '0764067432', 'erandinishmi66@gmail.com', '$2y$10$b490GhqOeHxYE.5H8dVFLOXZ4ZYPVTisxRMnVr6VSZviH50VfLxk6'),
+
 
 
 --
