@@ -57,7 +57,7 @@ CREATE TABLE `customers` (
 -- Dumping data for table `customers`
 --
 
-INSERT INTO `customers` (`customer_id`, `fname`, `email`, `shipping_address`, `phone_num`, `order_date`)
+
 
 -- --------------------------------------------------------
 
@@ -134,7 +134,7 @@ CREATE TABLE `orderss` (
 -- Dumping data for table `orderss`
 --
 
-INSERT INTO `orderss` (`order_id`, `customer_id`, `customer_name`, `customer_email`, `customer_phone`, `customer_address`, `product_title`, `product_image`, `product_price`, `quantity`, `item_total`, `delivery_fee`, `grand_total`, `order_date`, `order_status`) VALUES
+
 
 
 -- --------------------------------------------------------
@@ -170,7 +170,7 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `address`, `phone_number`, `email`, `password`) VALUES
+
 
 
 
